@@ -15,6 +15,7 @@ cnn_image_classification/
 ├── inception_best.pt              # Best checkpoint for Inception-like model
 ├── requirements.txt               # Python dependencies for setup
 ├── README.md                      # Project documentation
+```
 
 ---
 
@@ -65,7 +66,7 @@ The notebook contains modular implementations of five neural network architectur
    cd your-repo
    ```
 
-2. **If you have Jupyter installed, run:**:
+2. **If you have Jupyter installed, run:**
   ```bash
   jupyter notebook
   ```
@@ -75,11 +76,9 @@ The notebook contains modular implementations of five neural network architectur
   Image Classification using Convolutional Neural Networks (CNNs).ipynb
   ```
 
-4. **In the notebook, set the desired block type by modifying:.**
+4. **In the notebook, set the desired block type by modifying:**
   ```bash
   args.block_type = 'mlp'  # or 'conv', 'resPlain', 'resBottleneck', 'inception'
   ```
-  
+
 5. **Run all cells**
-~Train from scratch (will take time), or
-~Load a saved .pt checkpoint to evaluate test accuracy.
