@@ -6,13 +6,14 @@ This project implements and compares several CNN-based neural network architectu
 
 ## Project Structure
 
+```text
 cnn_image_classification/
 ├── Image Classification using Convolutional Neural Networks (CNNs).ipynb  # Main notebook
 ├── conv_best.pt                   # Best checkpoint for ConvNet
 ├── resPlain_best.pt               # Best checkpoint for plain ResNet
 ├── resBottleneck_best.pt          # Best checkpoint for bottleneck ResNet
 ├── inception_best.pt              # Best checkpoint for Inception-like model
-├── requirements.txt              # Python dependencies for setup
+├── requirements.txt               # Python dependencies for setup
 ├── README.md                      # Project documentation
 
 ---
@@ -62,18 +63,23 @@ The notebook contains modular implementations of five neural network architectur
    ```bash
    git clone https://github.com/yourusername/your-repo.git
    cd your-repo
+   ```
 
 2. **If you have Jupyter installed, run:**:
   ```bash
   jupyter notebook
+  ```
 
 3. **Then open the following file in your browser**:
   ```bash
   Image Classification using Convolutional Neural Networks (CNNs).ipynb
+  ```
 
 4. **In the notebook, set the desired block type by modifying:.**
   ```bash
   args.block_type = 'mlp'  # or 'conv', 'resPlain', 'resBottleneck', 'inception'
+  ```
+  
 5. **Run all cells**
 ~Train from scratch (will take time), or
 ~Load a saved .pt checkpoint to evaluate test accuracy.
